@@ -1,0 +1,5 @@
+net.probe on
+ser arp.spoof.fullduplex true
+set arp.spoof.targets 127.0.0.1
+net.sniff on
+set arp.spoof.target 12345
